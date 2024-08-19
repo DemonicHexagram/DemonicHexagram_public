@@ -13,7 +13,7 @@ public class Player : BaseCharacter
 
     public bool canMove { get { return CanMove; } set { CanMove = value; } }
 
-    private void Start()
+    protected override void Start()
     {
         base.Start();
         GameManager.Instance.Player = this;
