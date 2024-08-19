@@ -36,7 +36,7 @@ public class BaseCharacter : MonoBehaviour
     [SerializeField] public ParticleSystem Elemental_FireWaterHit;
     [SerializeField] public ParticleSystem Elemental_WaterThundernderHit;
 
-    public void Start()
+    protected virtual void Start()
     {
         Hit.gameObject.SetActive(false);
         FireHit.gameObject.SetActive(false);
