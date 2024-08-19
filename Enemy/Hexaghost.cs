@@ -6,7 +6,7 @@ public class Hexaghost : Enemy
 {
     NextActionUIBoss nextActionUIBoss;
 
-    private new void Start()
+    protected override void Start()
     {
         base.Start();
         Name.text = enemyName.ToString();
