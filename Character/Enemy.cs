@@ -32,7 +32,7 @@ public partial class Enemy : BaseCharacter
 
     public NextActionUI nextActionUI;
 
-    new void Start()
+    protected override void Start()
     {
         base.Start();
         nextActionUI = GetComponent<NextActionUI>();
