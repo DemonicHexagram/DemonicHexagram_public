@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using UnityEngine.UIElements;
+//코드에 출처 https://bravenewmethod.com/2014/09/13/lightweight-csv-reader-for-unity/#comment-7111
 
 public class CSVReader
 {
